@@ -2,30 +2,22 @@
 using namespace std;
 
 int main(){
-	short input = 0;
 	short num = rand()%100 + 1;
 	short inum = 0;
-	cout << "ÌôÕ½²Â¼¸´Î£º";
-	cin >> input;
-	cout << "ÇëÊäÈëÒ»¸öÊı£º";
+	cout << "è¯·è¾“å…¥ä¸€ä¸ªæ•°ï¼š";
 	cin >> inum;
 	while (inum != num){
 		short cai = 0
 		if (inum > num){
-			cout << "´óÁË" << endl;
+			cout << "å¤§äº†" << endl;
 			cai++;
 			cin >> inum;
 		}
 		else{
-			cout << "Ğ¡ÁË" << endl;
+			cout << "å°äº†" << endl;
 			cai++;
 			cin >> inum;
 		}
-		if (cai >= input){
-			cout << "Äã²ÂµÄ´ÎÊıÌ«¶àÁË£¡" << endl;
-			break;
-			return 0;
-		}
 	}
-	cout << "ÄúÖÕÓÚ²Â¶ÔÁË£¡" << endl;
+	cout << "æ‚¨ç»ˆäºçŒœå¯¹äº†ï¼" << endl;
 }
